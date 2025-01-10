@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/todo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  
+
+}
+.menu{
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px transparent
+}
+.profile{
+    display: flex;  
+}
+.profile > img,h1{
+    font-size: 20px;
+    width: 6rem;
+    padding: 1rem;
+}
+ol{
+    padding: 0;
+    list-style: none;
+}
+ol li {
+    display: flex;
+    align-items: center; /* Align image and text horizontally */
+  }
+  ol li img {
+    width: 20px; /* Adjust image size */
+    height: 20px;
+    margin-right: 10px; /* Space between image and text */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+
+  }
+  ol li:hover {
+    transform: scale(1.1); /* Scale the image to 110% of its original size */
+    cursor: pointer;
+  }
+li{
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 900;
+    
+}

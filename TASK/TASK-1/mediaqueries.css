@@ -1,0 +1,68 @@
+/* responsive */
+@media screen and (max-width: 720px) {
+    .wcu{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .wcu>p{
+        text-align: center;
+    }
+    .graph{
+        display: block;
+        padding: 0px;
+        padding-block-end: 5rem;
+    }
+    .box1{
+        width:680px ;
+        min-height:214px;
+    }
+    .box2{
+        width:680px ;
+        min-height:214px;
+    }
+    .box3{
+        width:680px ;
+        min-height:214px;
+    }
+    .box4{
+        width:680px ;
+        min-height:214px;
+    }
+    .containbox{
+       margin-left: 2rem;
+    }
+   
+}
+@media screen and (max-width: 375px){
+    .wcu{
+        width: auto;
+        height: auto;
+        text-align: center;
+        padding: 2rem;
+    }
+    .wcu>span{
+       font-size: 27px;
+    }
+
+    .box1{
+        width:357px ;
+        min-height:188px;
+    }
+    .box2{
+        width:357px ;
+        min-height:188px;
+    }
+    .box3{
+        width:357px ;
+        min-height:188px;
+    }
+    .box4{
+        width:357px ;
+        min-height:188px;
+    }
+    .containbox{
+        margin-left: 1rem;
+     }
+    
+}

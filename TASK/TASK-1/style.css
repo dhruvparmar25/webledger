@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #093E4D;
+    
+}
+
+/* content */
+.wcu{
+    width: 826px;
+    height: 112px;
+    padding: 5rem;
+    
+}
+.wcu>span{
+    font-family: "MuseoModerno", serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    border-color: #39AAE1;
+}
+
+.wcu>p{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: .5rem;
+
+}
+
+/* graph */
+
+.graph {
+    display: flex;
+    border-color: #39AAE1;
+    align-items: end;
+    padding: 0rem 6rem;
+}
+
+.box1 {
+    border: 1px solid #39AAE1;
+    background-color: #39AAE1;
+    border-radius: 0px 72px 0px 0px;
+    width: 450px;
+    min-height: 200px;
+
+}
+
+.containbox{
+padding: 1rem;
+}
+
+
+.containbox,
+h1 {
+    /* font-family: "MuseoModerno", serif; */
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    border-color: #39AAE1;
+
+}
+
+.containbox,
+p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+
+}
+
+.box2 {
+    border-radius: 0px 72px 0px 0px;
+    border: 1px solid #F9B33E;
+    background-color: #F9B33E;
+    width: 350px;
+   min-height: 300px;
+}
+
+.box3 {
+    border: 1px solid #E9522A;
+    background-color: #E9522A;
+    gap: 24px;
+    border-radius: 0px 72px 0px 0px;
+    width: 350px;
+    min-height:410px;
+
+}
+
+.box4 {
+    gap: 24px;
+    border-radius: 0px 72px 0px 0px;
+    border: 1px solid #198754;
+    background-color: #198754;
+    width: 300px;
+    min-height: 485px;
+}
+
