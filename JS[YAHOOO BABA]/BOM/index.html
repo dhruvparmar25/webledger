@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onresize="resize()">
+    <button onclick="openWindow()">New Window</button>
+    <script>
+        // console.clear
+        // function resize() {
+        //     var iHeight = window.innerHeight;
+        //     console.log("inner height" + iHeight);
+
+        //     var oHeight = window.outerHeight;
+        //     console.log("outer height" + oHeight);
+        // }
+        // function openWindow() {
+        //     window.open("https://chatgpt.com/", "_parent", "",);
+
+        // }
+
+        // function sum(name,...arguments) {
+        //     console.log(arguments);
+        //     let sum = 0;
+
+
+
+        //     for (let i in arguments) {
+        //         sum += arguments[i];
+        //     }
+        //     document.write(`hello  ${name} `)
+        //     document.write(sum + "<br>");
+
+        // }
+        // var arr = [10,200,30,20,12,20]
+        // sum("Dhruv",...arr);
+
+        let fname ="Dhruv";
+        let lname="parmar";
+        let course="mca";
+
+        function student(fname,lname,course){
+            let fullname="fname"+" "+"lname"
+            return{fullname,course}
+        }
+        console.log(student.fname,lname,course)
+
+
+    </script>
+</body>
+
+</html>
