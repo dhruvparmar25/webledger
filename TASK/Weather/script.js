@@ -3,7 +3,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?units=metric&q=
 
 const searchBox =document.querySelector(".search input");
 const searchBtn =document.querySelector(".search button");
-const weatherIcon=document.querySelector("weather-icon")
+const weatherIcon=document.querySelector(".weather-icon")
 
  
 async function checkWeather(city) {
@@ -18,21 +18,21 @@ async function checkWeather(city) {
     document.querySelector(".humidity").innerHTML = data.list[0].main.humidity +"%";
     document.querySelector(".wind").innerHTML = data.list[0].wind.speed + " km/h";
 
-    if(data.weather[0].main == "Clouds"){  
+    if(data.weather[0].main == "C  louds"){  
 
-        weatherIcon.src = "images/clouds.png"; 
+        weatherIcon.src = "./images/clouds.png"; 
     }else if(data.weather[0].main == "Clear"){  
 
-        weatherIcon.src = "images/clear.png"; 
+        weatherIcon.src = "./images/clear.png"; 
     }else if(data.weather[0].main == "Rain"){  
 
-        weatherIcon.src = "images/rain.png"; 
+        weatherIcon.src = "./images/rain.png"; 
     }else if(data.weather[0].main == "Drizzle"){  
 
-        weatherIcon.src = "images/drizzle.png"; 
+        weatherIcon.src = "./images/drizzle.png"; 
     }else if(data.weather[0].main == "Mist"){  
 
-        weatherIcon.src = "images/mist.png"; 
+        weatherIcon.src = "./images/mist.png"; 
     }
 }
 

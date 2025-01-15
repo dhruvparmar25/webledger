@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+    
+    <script>
+        fetch("./data.json")
+        .then((response)=>response.json())
+        .then((data)=>{
+            console.log(data);
+            for(var x in data){
+                var a = `${data[x].name}-${data[x].age}-${data[x].city}<br>`;
+                document.write(a);
+            }
+        })
+        .catch(function(error){
+            document.write("can't fetch data")
+        });
+    </script>
+</body>
+</html>
