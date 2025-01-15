@@ -83,7 +83,7 @@ document.write("<br>"+a)
 
 
 
-/* 
+/*
 var student = {
     name: "Dhruv",
     age: 21,
@@ -99,7 +99,7 @@ for (var key in obj) {
 var time = new Date();
 document.write(time.getMonth()); 
 */
-  
+
 /*
 var a = document.getElementById("inner").lastElementChild.addEventListener("mouseenter",function(){
     this.style.backgroundColor="red"
@@ -124,7 +124,7 @@ console.log(target)
 
 target.replaceChild(newElement,oldvalue)
 */
-
+/*
 function focusfunction(abc){
    abc.style.background="lightblue";
 }
@@ -144,3 +144,18 @@ function animation(){
     a = a+10;
     var target = document.getElementById("box");
     target.style.width = "500px";}
+*/
+
+var n = "name"
+
+var Student = {
+    [n] :"Dhruv Parmar",
+    course:"mca",
+    detail:function(){
+        return `${this.name} is student of ${this.course} `
+
+    }
+}
+
+console.log(Student);
+console.log(Student.detail());
