@@ -15,25 +15,28 @@
     align-items: center;
 }
 
-.todo-app,.complete {
+.todo-app,
+.complete {
     width: 100%;
     max-width: 540px;
     background: #fff;
     margin: 188px 20px 28px;
     padding: 48px 30px 70px;
     border-radius: 10px;
-    
+
 }
 
 
-.todo-app h2,.complete h2 {
+.todo-app h2,
+.complete h2 {
     color: #002765;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.todo-app h2 img,.complete h2 img {
+.todo-app h2 img,
+.complete h2 img {
     width: 30px;
     margin-left: 10px;
 }
@@ -113,11 +116,7 @@ ul li span {
     text-align: center;
     border-radius: 50%;
 }
-ul li span:hover{
-background: #edeef0;
 
-
-
-
-    
+ul li span:hover {
+    background: #edeef0;
 }
