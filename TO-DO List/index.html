@@ -6,28 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO-DO</title>
     <link rel="stylesheet" href="./style.css">
-    
+
 </head>
 
 <body>
 
     <div class="container">
         <div class="menu">
-            <div class="profile" id="prf" style="border: 1px solid black;" onclick="xyz" >
+            <div class="profile" id="prf">
                 <img src="./img/profile.png" alt="img">
                 <h1>Dhurv Parmar</h1>
             </div>
             <ol>
-                <li><img src="./img/sunny-day.png" alt="">My Day</li>
-                <li><img src="./img/calendar-date.png" alt="">Next 7 Days</li>
+                <a href="./TO-DO/todo.html">
+                    <li><img src="./img/calendar-date.png" alt="">Next 7 Days</li>
+                </a>
                 <li><img src="./img/clipboard.png" alt="">All My Task</li>
                 <li><img src="./img/schedule.png" alt="">My Calendar</li>
                 <li><img src="./img/save-instagram.png" alt="">custom Views</li>
+                <a href="./../webledger/TASK/TO-DO/todo.html">
+                    <li><img src="./img/sunny-day.png" alt="">My Day</li>
+                </a>
             </ol>
         </div>
     </div>
 
-<script src="./script.js"></script>
+    <section>
+        <div class="container">
+            <div class="todo-app">
+                <h2>To-Do list <img src="./images/icon.png" alt=""></h2>
+                <div class="row">
+                    <input type="text" placeholder="Add Your Text" id="input-box">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <ul id="list-container">
+                    <!-- <li class="checked">Task1</li>
+                <li>Task2</li>
+                <li>Task3</li> -->
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
