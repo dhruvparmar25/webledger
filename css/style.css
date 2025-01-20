@@ -1,0 +1,23 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+.margin{
+    width: 750px;
+    height: 350px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    margin: 121px 20px 50px 245px;
+
+}
+.box-red{
+    width: 550px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: red;
+    margin: 150px;
+
+}

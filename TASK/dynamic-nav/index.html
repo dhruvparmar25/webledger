@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar for navigation -->
+    <div class="navbar">
+        <ul>
+            <li><a href="#" onclick="showTodo()">To-Do List</a></li>
+            <li><a href="#" onclick="showCompleted()">Completed Tasks</a></li>
+        </ul>
+    </div>
+
+    <!-- Main container for To-Do List and Completed Tasks -->
+    <div class="container">
+        <div class="todo-app" id="todo-list">
+            <h2>To-Do List <img src="./images/icon.png" alt="Icon"></h2>
+            <div class="row">
+                <input type="text" placeholder="Add Your Task" id="input-box">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <button class="clear-button" onclick="clearAllTasks('todo')">Clear All</button>
+            <ul id="list-container">
+                <!-- List of to-do tasks will appear here -->
+            </ul>
+        </div>
+
+        <div class="complete" id="completed-tasks" style="display:none;">
+            <h2>Completed Tasks <img src="./images/checked.png" alt="Checked"></h2>
+            <button class="clear-button" onclick="clearAllTasks('completed')">Clear All</button>
+            <ul>
+                <!-- Completed tasks will appear here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
