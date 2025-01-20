@@ -1,0 +1,47 @@
+#si{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+#si>div:first-child>p{
+    font-size: 1rem;
+    margin: 1rem 0rem;
+}
+#si>div:first-child>button{
+    background-color: black;
+    color: white;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#si>.cwu>p{
+    margin: 1rem 0rem;
+    font-size: 1rem;
+}
+footer{
+    align-items: end;
+}
+
+#des{
+    display: flex;
+    justify-content: space-around;
+}
+.store>h1{
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+    text-transform: uppercase;
+}
+.store>p{
+    color: rgb(103, 98, 98);
+    font-size: 1.5rem;
+
+}
+.pay>h1{
+    font-size: 1.5rem;
+    margin: 2rem 0rem;
+}
