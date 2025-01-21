@@ -1,4 +1,9 @@
 /* Navbar Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #navbar {
   display: flex;
   align-items: center;
@@ -67,6 +72,6 @@
 
 /* Right Section: Logo */
 .logo img {
-  width: 50px; /* Logo Size */
+  width: 80px; /* Logo Size */
   cursor: pointer;
 }
