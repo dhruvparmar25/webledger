@@ -4,7 +4,7 @@
     align-items: center;
     border: 1px solid lightgray;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     padding: 2rem;
 }
 #si>div:first-child>p{
@@ -23,13 +23,12 @@
     margin: 1rem 0rem;
     font-size: 1rem;
 }
-footer{
-    align-items: end;
-}
+
 
 #des{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 3rem;
 }
 .store>h1{
     font-size: 1.5rem;
@@ -44,4 +43,23 @@ footer{
 .pay>h1{
     font-size: 1.5rem;
     margin: 2rem 0rem;
+}
+.featuredlogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+.featuredlogo>div>img{
+    width: 90%;
+    
+}
+#featured>div>h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+#featured>div>h1:hover{
+    cursor: pointer;
 }
