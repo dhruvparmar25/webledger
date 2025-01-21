@@ -54,7 +54,7 @@
     width: 90%;
     
 }
-#featured>div>h1{
+#featured>div>h1,#blackfriday>div>h1{
     text-transform: uppercase;
     text-align: center;
     font-weight: lighter;
@@ -62,4 +62,30 @@
 }
 #featured>div>h1:hover{
     cursor: pointer;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.offer>div>h1{
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.offer>div>p{
+    font-size: 16px;
+}
+.offer>div{
+    width: 34%;
+    margin: 2rem;
+}
+.offer>div>img{
+    width: 331px;
+    height: 290px;
+}
+#blackfriday{
+    margin: 3rem 0rem;
 }
