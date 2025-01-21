@@ -10,3 +10,52 @@ body{
     width: 100%;
     background-color: white;
 }
+/* slider bar image */
+.sliderbanner{
+    position: relative;
+}
+.navigateslider>.sliderbanner>img{
+    width: 100%;
+   
+
+}
+.navigateslider{
+    display: flex;
+}
+.sliderinfo{
+    width: 25%;
+    position: absolute;
+    top:30%;
+    right: 10%;
+    color: white;
+   
+}
+.sliderinfo>h1{
+    font-size: 45px;
+    margin: 0;
+    color: #000;
+}
+.sliderinfo>p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #000;
+}
+.sliderinfo>button{
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.navigateslider{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    justify-content: center;
+}
