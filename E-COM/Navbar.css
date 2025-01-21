@@ -1,55 +1,72 @@
+/* Navbar Styling */
 #navbar {
-  background-color: rgb(0 0 0);
-  color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0); /* Background Color */
+  padding: 10px 20px;
+  color: white;
 }
-#navbar > .logo > img {
-  width: 30%;
+
+/* Left Section: Icons */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icons */
+}
+
+.icons i {
+  font-size: 20px;
   cursor: pointer;
+  color: white;
 }
-#navbar > .search {
+
+.icons h4 {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
+
+.icons i:hover,
+.icons h4:hover {
+  color: #ff9800; /* Hover Effect */
+}
+
+/* Middle Section: Search Bar */
+.search {
+  display: flex;
+  align-items: center;
   border: 1px solid lightgray;
   border-radius: 5px;
   background-color: transparent;
-  overflow: hidden;
-  justify-content: start;
-  width: 20%;
-  align-items: center;
-  padding: 0 7px;
-  display: flex;
+  width: 20%; /* Search bar width */
+  padding: 5px 10px;
 }
-#navbar > .search:focus {
+
+.search input {
+  flex: 1; /* Fills remaining space */
+  padding: 8px;
   background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 16px;
 }
-#navbar > .search > input:active {
-  background-color: rgba(2, 2, 2, 0.807);
-}
-#navbar > .search > input:focus {
-  background-color: rgba(2, 2, 2, 0.807);
-}
-#navbar>.search>input{
-          padding: 10px;
-          width: 100%;
-          background-color: transparent;
-          font-size: 17px;
-          border: none;
-          color: white;
-          outline: none;
-}
-#navbar>.search>span {
 
-          padding:10px;
-         cursor: pointer;
-
-      
-      }
-#srchimg{
-          width: 30%;
-          background-color:rgb(0 0 0) ;
-          background: transparent;
-         
+.search span {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.ac{
-          width: 25%;
+
+#srchimg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Right Section: Logo */
+.logo img {
+  width: 50px; /* Logo Size */
+  cursor: pointer;
 }
