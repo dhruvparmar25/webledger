@@ -454,3 +454,15 @@ body {
     border-radius: 5px;
   }
   
+  /* dropdown login-signup */
+  .dropdown-content{
+    display: none;
+    position: absolute;
+
+  }
+  .dropdown-content a{
+    color: black;
+    display: block;
+  }
+  .dropdown-content a:hover{background-color: red;}
+  .dropdown-content a:hover

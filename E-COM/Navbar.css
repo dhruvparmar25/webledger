@@ -13,7 +13,9 @@
 .icons {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between icons */
+  gap: 10px;
+  position: relative;
+     /* Space between icons */
 }
 
 .icons i {
@@ -107,3 +109,4 @@
   background-color: rgba(191, 190, 190, 0.826);
   padding: 20px; 
 }
+

@@ -5,7 +5,7 @@
         }
         
         #p {
-          background-color: rgb(244, 244, 244);
+          /* background-color: rgb(244, 244, 244); */
           padding: 50px 0;
         }
         
@@ -40,7 +40,7 @@
           text-transform: uppercase;
           background-color: #0b0b0b; /* Dark red for better contrast */
           color: white;
-          padding: 10px 0;
+          padding: 5px 0;
           border-radius: 5px;
         }
         
