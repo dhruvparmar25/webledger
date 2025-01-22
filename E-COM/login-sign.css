@@ -38,10 +38,11 @@
         .paymentcard > form > div > div:nth-child(odd) {
           text-align: center;
           text-transform: uppercase;
-          background-color: #0b0b0b; /* Dark red for better contrast */
-          color: white;
+          background-color: white; /* Dark red for better contrast */
+          color: black;
           padding: 5px 0;
           border-radius: 5px;
+         
         }
         
         .paymentcard > form > div > div:nth-child(even) {

@@ -10,6 +10,12 @@ body {
     width: 100%;
     background-color: white;
 }
+
+
+/* nav */
+#mainnav{
+    background-color: black;
+}
 /* slider bar image */
 .sliderbanner{
     position: relative;
@@ -353,13 +359,9 @@ h6 {
     font-size: 45px;
     margin: 0;
 }
-
-.sliderInfo {
-    width: 25%;
-    position: absolute;
-    top: 30%;
-    right: 10%;
-    color: white;
+.sliderInfo-c>h1{
+    font-size: 45px;
+    margin: 0;
 }
 
 .sliderInfo {
@@ -369,12 +371,31 @@ h6 {
     right: 10%;
     color: white;
 }
+.sliderInfo-c{
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: black;
+}
+.sliderInfo-c>p{
+    font-size: 20px;
+    margin: 1rem 0rem;
+}
+
+
 
 .sliderInfo>p {
     font-size: 20px;
     margin: 1rem 0rem;
 }
 
+.sliderInfo-c>button{
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 .sliderInfo>button {
     padding: 10px 30px;
     font-size: 15px;

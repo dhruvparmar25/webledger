@@ -39,7 +39,6 @@ const updateSliderPosition = () => {
             container.style.transition = 'none'; // Disable transition for seamless loop
             container.style.transform = `translateX(0)`;
             currentIndex = 0;
-            
         }, 1000); // Match the transition duration (0.5s in CSS)
     } else {
         container.style.transition = 'transform 1s ease-in-out'; // Re-enable transition
@@ -51,7 +50,6 @@ const startAutoScroll = () => {
     setInterval(() => {
         currentIndex++;
         updateSliderPosition();
-        
     }, 3000); // Scroll every 3 seconds
 };
 
