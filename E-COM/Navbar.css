@@ -92,7 +92,13 @@
   background-color: rgba(243, 243, 243, 0.826);
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
+  flex: wrap;
 }
+.offerlink >.span{
+  margin-right: 20px;
+  font-size: 15px;
+}
+
 
 /* notify */
 .notify{
