@@ -10,6 +10,12 @@ body {
     width: 100%;
     background-color: white;
 }
+
+
+/* nav */
+#mainnav{
+    background-color: black;
+}
 /* slider bar image */
 .sliderbanner{
     position: relative;
