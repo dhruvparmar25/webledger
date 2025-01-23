@@ -13,49 +13,43 @@ body {
 
 
 /* nav */
-#mainnav {
+#mainnav{
     background-color: black;
 }
-
 /* slider bar image */
-.sliderbanner {
+.sliderbanner{
     position: relative;
 
 }
-
-.navigateslider>.sliderbanner>img {
+.navigateslider>.sliderbanner>img{
     width: 100%;
-
+   
 
 }
-
-.navigateslider {
+.navigateslider{
     display: flex;
 }
-
-.sliderinfo {
+.sliderinfo{
     width: 25%;
     position: absolute;
-    top: 30%;
+    top:30%;
     right: 0%;
     color: white;
-
-
+   
+   
 }
 
-.sliderinfo>h1 {
+.sliderinfo>h1{
     font-size: 45px;
     margin: 0;
     color: #000;
 }
-
-.sliderinfo>p {
+.sliderinfo>p{
     font-size: 20px;
     margin-top: 10px;
     color: #000;
 }
-
-.sliderinfo>button {
+.sliderinfo>button{
     padding: 10px 30px;
     font-size: 15px;
     text-transform: uppercase;
@@ -65,8 +59,7 @@ body {
     margin-top: 15px;
     font-size: 20px;
 }
-
-.navigateslider {
+.navigateslider{
     z-index: 1;
     width: 100%;
     display: flex;
@@ -189,11 +182,6 @@ body {
 }
 
 /* Best-sellers */
-
-.bestbtn {
-    display: flex;
-}
-
 .product {
     width: 90%;
     display: flex;
@@ -317,7 +305,7 @@ h6 {
 }
 
 .mdcard,
-.card {
+.card{
     text-align: center;
     flex: 0 0 250px;
     padding: 1rem;
@@ -354,7 +342,7 @@ h6 {
     position: relative;
     width: 100%;
     max-width: 100%;
-}
+  }
 
 .slideBanner {
     position: relative;
@@ -371,8 +359,7 @@ h6 {
     font-size: 45px;
     margin: 0;
 }
-
-.sliderInfo-c>h1 {
+.sliderInfo-c>h1{
     font-size: 45px;
     margin: 0;
 }
@@ -383,17 +370,15 @@ h6 {
     top: 30%;
     right: 10%;
     color: white;
-    position: absolute;
 }
-
-.sliderInfo-c {
+.sliderInfo-c{
     width: 25%;
+    position: absolute;
     top: 30%;
     right: 10%;
     color: black;
 }
-
-.sliderInfo-c>p {
+.sliderInfo-c>p{
     font-size: 20px;
     margin: 1rem 0rem;
 }
@@ -405,13 +390,12 @@ h6 {
     margin: 1rem 0rem;
 }
 
-.sliderInfo-c>button {
+.sliderInfo-c>button{
     padding: 10px 30px;
     font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
 }
-
 .sliderInfo>button {
     padding: 10px 30px;
     font-size: 15px;
@@ -420,9 +404,7 @@ h6 {
 }
 
 .button-right,
-.button-left,
-.button-right-1,
-.button-left-1 {
+.button-left {
 
     cursor: pointer;
     padding: 12px;
@@ -444,9 +426,7 @@ h6 {
 }
 
 .button-right:hover,
-.button-left:hover,
-.button-right-1:hover,
-.button-left-1:hover {
+.button-left:hover {
     background-color: rgb(5, 5, 5);
     transform: scale(1.1);
 }
@@ -457,41 +437,53 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-
-.slider-container {
+  }
+  
+  .slider-container {
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-.slider-wrapper {
+  }
+  
+  .slider-wrapper {
     display: flex;
     transition: transform 0.5s ease-in-out;
     will-change: transform;
-}
-
-.sliderbanner {
+  }
+  
+  .sliderbanner {
     min-width: 100%;
     box-sizing: border-box;
     position: relative;
-}
-
-.sliderbanner img {
+  }
+  
+  .sliderbanner img {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.sliderinfo {
+  }
+  
+  .sliderinfo {
     position: absolute;
     top: 50%;
     /* left: 50%; */
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    background-color: transparent;
+    background-color:transparent;
     padding: 20px;
     border-radius: 5px;
   }
   
+  /* dropdown login-signup */
+  .dropdown-content{
+    display: none;
+    position: absolute;
+
+  }
+  .dropdown-content a{
+    color: black;
+    display: block;
+  }
+  .dropdown-content a:hover{background-color: red;}
+  .dropdown-content a:hover
