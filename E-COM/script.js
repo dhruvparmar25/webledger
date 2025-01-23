@@ -1,3 +1,4 @@
+
 const slider = document.querySelector('.slider');
 const btnleft = document.querySelector('.button-left');
 const btnright = document.querySelector('.button-right');
