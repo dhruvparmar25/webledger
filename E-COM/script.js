@@ -1,8 +1,11 @@
 
 const slider = document.querySelector('.slider');
+const slider1 = document.querySelector('.slider-1');
+
 const btnleft = document.querySelector('.button-left');
 const btnright = document.querySelector('.button-right');
-
+const btnleft1 = document.querySelector('.button-left-1');
+const btnright1 = document.querySelector('.button-right-1');
 
 function scrollLeft() {
     slider.scrollBy({
@@ -11,8 +14,20 @@ function scrollLeft() {
     });
 }
 
+function scrollLeft() {
+    slider1.scrollBy({
+        left: -250, // Scroll left
+        behavior: 'smooth',
+    });
+}
 function scrollRight() {
     slider.scrollBy({
+        left: 250, // Scroll right
+        behavior: 'smooth',
+    });
+}
+function scrollRight() {
+    slider1.scrollBy({
         left: 250, // Scroll right
         behavior: 'smooth',
     });
@@ -20,6 +35,8 @@ function scrollRight() {
 
 btnleft.addEventListener('click', scrollLeft);
 btnright.addEventListener('click', scrollRight);
+btnleft1.addEventListener('click', scrollLeft);
+btnright1.addEventListener('click', scrollRight);
 
 // Banner-slide
 
