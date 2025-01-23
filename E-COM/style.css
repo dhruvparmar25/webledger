@@ -14,12 +14,14 @@ body {
 }
 
 /* Title css */
-.bestsellers{
+.bestsellers {
     margin-bottom: 3rem;
 }
+
 .blackftxt>h1,
 .bestsellers>h1,
-.ctxt>h1,.mdtxt>h1 {
+.ctxt>h1,
+.mdtxt>h1 {
     text-align: center;
     font-size: 35px;
     margin: 40px;
@@ -32,9 +34,10 @@ body {
 
 
 /* Feature */
-#featured{
+#featured {
     margin-bottom: 3rem;
 }
+
 .featuredlogo {
     display: flex;
     justify-content: space-around;
@@ -92,7 +95,8 @@ body {
     width: 100%;
     object-fit: cover;
 }
-#blackfriday{
+
+#blackfriday {
     margin-bottom: 3rem;
 }
 
@@ -109,12 +113,15 @@ body {
     text-transform: uppercase;
     background-color: transparent;
     cursor: pointer;
+    background-color: black;
+    color: #fff;
 }
 
 .offer>div>button:hover,
 #si>div:first-child>button:hover,
-.card>button:hover,.mdcard>button:hover {
-    background-color: black;
+.card>button:hover,
+.mdcard>button:hover {
+    background-color: rgba(0, 0, 0, 0.753);
     color: white;
 }
 
@@ -136,7 +143,8 @@ body {
 }
 
 .card>p,
-h6,.mdcard>p,
+h6,
+.mdcard>p,
 h6 {
     width: 80%;
     font-size: 1rem;
@@ -146,7 +154,8 @@ h6 {
 
 }
 
-.card>button,.mdcard>button {
+.card>button,
+.mdcard>button {
     border: 1px solid black;
     padding: 10px 35px;
     text-transform: uppercase;
@@ -156,11 +165,14 @@ h6 {
     justify-content: center;
     text-align: center;
     align-items: center;
+    background-color: black;
+    color: #fff;
 }
 
 .card {
     max-width: 23%;
     text-align: center;
+    flex: 0 0 230px;
 }
 
 .rating {
@@ -169,9 +181,10 @@ h6 {
 
 
 /* category */
-.category{
+.category {
     margin-bottom: 3rem;
 }
+
 .catlist {
     margin: auto;
     display: flex;
@@ -188,12 +201,13 @@ h6 {
     width: 90%;
     margin-top: 3rem;
 }
-.banner>img{
+
+.banner>img {
     width: 100%;
 }
 
 /* md */
-.mdtxt>p{
+.mdtxt>p {
     font-size: 16px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -204,22 +218,144 @@ h6 {
     height: 391px;
     margin-top: 3rem;
 }
-    
+
 .double {
+
     display: flex;
     width: 90%;
     margin: auto;
     justify-content: space-between;
 }
-.dproduct{
+
+.dproduct {
     display: flex;
     justify-content: center;
     align-items: self-end;
-    
+    display: flex;
+    justify-content: space-around;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-left: 50px;
+    position: relative;
+    padding-right: 50px;
 }
-.mdcard>img{
+
+
+.mdcard>img {
     width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
-.mdcard{
+
+.mdcard,
+.card{
     text-align: center;
+    flex: 0 0 250px;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+}
+
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+
+}
+
+
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* slider */
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.bannerlist {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+
+.slideBanner {
+    position: relative;
+    flex: 0 0 100%;
+}
+
+.slideBanner>img {
+    width: 100%;
+    display: block;
+}
+
+
+.sliderInfo>h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.sliderInfo {
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: white;
+}
+
+.sliderInfo {
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: white;
+}
+
+.sliderInfo>p {
+    font-size: 20px;
+    margin: 1rem 0rem;
+}
+
+.sliderInfo>button {
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-right,
+.button-left {
+
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    background-color: rgba(5, 5, 5, 0.61);
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+    height: 50px;
+    margin-top: 15rem;
+    margin-left: 1rem;
+
+
+}
+
+.button-right:hover,
+.button-left:hover {
+    background-color: rgb(5, 5, 5);
+    transform: scale(1.1);
 }
