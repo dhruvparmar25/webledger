@@ -5,7 +5,7 @@
         }
         
         #p {
-          background-color: rgb(244, 244, 244);
+          /* background-color: rgb(244, 244, 244); */
           padding: 50px 0;
         }
         
@@ -38,9 +38,16 @@
         .paymentcard > form > div > div:nth-child(odd) {
           text-align: center;
           text-transform: uppercase;
+<<<<<<< HEAD
           color: rgb(0, 0, 0);
           padding: 10px 0;
+=======
+          background-color: white; /* Dark red for better contrast */
+          color: black;
+          padding: 5px 0;
+>>>>>>> 655096a20fc652ee8aa8e5370f9a42c8f12b5a5a
           border-radius: 5px;
+         
         }
         
         .paymentcard > form > div > div:nth-child(even) {
