@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="cal">
+        <input type="text" placeholder="0" id="display" />
+        <p></p>
+
+        <div>
+          <button  style="background-color: #c6c7c8;"  onclick="clearDisplay()">AC</button>
+          <button style="background-color: #c6c7c8;"   onclick="pi('pi')">pi</button>
+          <button style="background-color: #c6c7c8;"   onclick="backspace()">⌫</button>
+          <button style="background-color: orange"   onclick="myFunction('/')">/</button>
+        </div>
+        <div>
+          <button onclick="myFunction('7')">7</button>
+          <button onclick="myFunction('8')">8</button>
+          <button onclick="myFunction('9')">9</button>
+          <button style="background-color:orange"   onclick="myFunction('*')">*</button>
+        </div>
+        <div>
+          <button onclick="myFunction('4')">4</button>
+          <button onclick="myFunction('5')">5</button>
+          <button onclick="myFunction('6')">6</button>
+          <button  style="background-color: orange"   onclick="myFunction('-')">-</button>
+        </div>
+        <div>
+          <button onclick="myFunction('1')">1</button>
+          <button onclick="myFunction('2')">2</button>
+          <button onclick="myFunction('3')">3</button>
+          <button  style="background-color: orange"   onclick="myFunction('+')">+</button>
+        </div>
+        <!-- <div>
+         
+          <button onclick="myFunction('(')">(</button>
+          <button onclick="myFunction(')')">)</button>
+
+        </div> -->
+       
+        <div>
+          <button onclick="myFunction('0')">0</button>
+          <!-- <button onclick="myFunction('00')">00</button> -->
+          <button onclick="myFunction('.')">.</button>
+          
+          <button onclick="squre('x2')">x2</button>
+          <button  style="background-color: orange;"  onclick="calculate()">=</button>
+        </div>
+      
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

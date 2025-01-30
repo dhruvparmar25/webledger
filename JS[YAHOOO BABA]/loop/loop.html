@@ -1,21 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loop</title>
 </head>
+
 <body>
-   <script>
+    <script>
 
-    // for loop
-    var vowels=['a','e','i','o','u'];
-    
-    for(let i=0; i<vowels.length; i++){
-        document.write(vowels[i]+"<br>");
+        // for loop
+        /*
+        *
+        **
+        ***
+        ****
+        *****
+        */
+        // let n = 5
+        // for(i=1; i<=n; i++){
+        //     const sym="* "
+        //     console.log(sym.repeat(i))
+        // }
+        /*
+        *****
+        ****
+        ***
+        **
+        *
+        let n=5;
+        for(i=n; i>=1; i--){
+            const sym="* "
+            console.log(sym.repeat(i))
+        }
+            */
+
+        /*
+            *   
+           **
+          ***
+         ****
+        *****
+        let n=5
+        for(i=1; i<=n; i++){
+            const sym="* ";
+            const space="  "
+            console.log(space.repeat((n-i))+sym.repeat(i));
+        }
+            */
+        /*
+            *****
+            ****
+            ***
+            **
+            *
+            let n=5;
+            for(i=n; i>=1; i--){
+            const sym ="*"
+            const space=" "
+            console.log(space.repeat((n-i))+sym.repeat(i));}
+        */
+
+        /*
+   *
+  * *
+ * * *
+* * * *
+* * * * *
+
+        
+       let n=5;
+       for(i=1; i<=n; i++){
+           const sym="* "
+           const space=" "
+           console.log(space.repeat((n-i))+sym.repeat(i))
+       }
+           */
+        /*
+
+          * * * * * 
+           * * * * 
+            * * * 
+             * * 
+              * 
+
+         let n=5;
+         for(i=n; i>=1; i--){
+         const sym="* "
+         const space=" "
+         console.log(space.repeat((n-i))+sym.repeat(i))
+     }
+         */
+        /*
+
+        * * * *
+        * * * *
+        * * * *
+        * * * *
+            * * * *
+            
+            
+        let n = 4;
+       for(var row=1; row<=n; row++){
+        for (let col = 1; col <=n; col++) {
+            console.log("* ")
+        }
+        console.log(row);
+       }
+*/
+for (let i = 0; i < 4; i++) { // Outer loop for rows
+    let row = ""; // Initialize an empty string for each row
+    for (let j = 0; j < 4; j++) { // Inner loop for columns
+        row += "* "; // Add asterisks with a space
     }
+    console.log(row.trim()); // Print the row without extra trailing space
+}
 
 
-   </script> 
+
+
+
+
+
+
+    </script>
 </body>
+
 </html>
